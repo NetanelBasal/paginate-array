@@ -10,7 +10,7 @@ npm install paginate-array
 
 ```js
 
-const paginate = require('paginate-array);
+const paginate = require("paginate-array");
 const collection = [...];
 
 const paginateCollection = paginate(collection[,pageNumber, NumItemsPerPage]);
