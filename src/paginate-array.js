@@ -1,4 +1,4 @@
-const paginateArray = (collection, page = 1, numItems = 10) => {
+export default (collection, page = 1, numItems = 10) => {
   if( !Array.isArray(collection) ) {
     throw `Expect array and got ${typeof collection}`;
   }
@@ -15,5 +15,3 @@ const paginateArray = (collection, page = 1, numItems = 10) => {
     data: paginatedItems
   };
 }
-
-export default paginateArray
