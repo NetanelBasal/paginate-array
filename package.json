@@ -1,6 +1,6 @@
 {
   "name": "paginate-array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pagination for arrays in javascript",
   "main": "./lib/index.js",
   "scripts": {
