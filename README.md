@@ -23,7 +23,7 @@ The result of paginateCollection will be an object:
     currentPage: 1,
     perPage: 10,
     total: 20,
-    totaPages: 2,
+    totalPages: 2,
     data: [...]
 }
 ```

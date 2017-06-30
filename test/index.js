@@ -30,7 +30,7 @@ describe('Paginate array', () => {
       expect(paginate.currentPage).to.equal(1);
       expect(paginate.perPage).to.equal(10);
       expect(paginate.total).to.equal(20);
-      expect(paginate.totaPages).to.equal(2);
+      expect(paginate.totalPages).to.equal(2);
       expect(paginate.data).to.eql(collection.slice(0, 10));
     });
   });

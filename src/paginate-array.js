@@ -11,7 +11,7 @@ export default (collection, page = 1, numItems = 10) => {
     currentPage,
     perPage,
     total: collection.length,
-    totaPages: Math.ceil(collection.length / perPage),
+    totalPages: Math.ceil(collection.length / perPage),
     data: paginatedItems
   };
 }
