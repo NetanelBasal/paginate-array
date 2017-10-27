@@ -17,7 +17,7 @@ const collection = [...];
 
 const paginateCollection = paginate(collection[,pageNumber, numItemsPerPage]);
 
-The result of paginateCollection will be an object:
+console.log(paginateCollection)
 
 {
     currentPage: 1,
